@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: roboto "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+body {
+  padding: 0;
+  margin: 0;
+  /* to right means left to right jayega. */
+  /* background: linear-gradient(to right, #56ccf2, #2f80ed); */
+  background-color: #cdf0ea;
 }
